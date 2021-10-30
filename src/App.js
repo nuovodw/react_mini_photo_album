@@ -70,7 +70,7 @@ const App = () => {
 						<Grid item>
 							<Card className={classes.card}>
 								<CardMedia
-									className={classes.CardMedia}
+									className={classes.cardMedia}
 									image="https://source.unsplash.com/random"
 									titles="image titles"
 								/>
@@ -78,7 +78,10 @@ const App = () => {
 									<Typography gutterBottom variant="h5">
 										Heading
 									</Typography>
-									<Typography>Content Description</Typography>
+									<Typography>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Culpa, rerum?
+									</Typography>
 								</CardContent>
 								<CardActions>
 									<Button size="small" color="primary">

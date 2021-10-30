@@ -100,6 +100,14 @@ const App = () => {
 					</Grid>
 				</Container>
 			</main>
+			<footer className={classes.footer}>
+				<Typography variant="h6" align="center" gutterBottom>
+					This is a footer
+				</Typography>
+				<Typography variant="subtitle1" align="center" color="textSecondary">
+					Some more footer information
+				</Typography>
+			</footer>
 		</>
 	);
 };
